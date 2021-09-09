@@ -30,13 +30,13 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  k8s.gcr.io/metrics-server/metrics-server: willdockerhub/metrics-server
-  k8s.gcr.io/ingress-nginx/controller: willdockerhub/ingress-nginx-controller
-  k8s.gcr.io/git-sync/git-sync: willdockerhub/git-sync
-  gcr.io/kaniko-project/executor:debug,latest: willdockerhub/kaniko-executor
-  k8s.gcr.io/kube-state-metrics/kube-state-metrics: willdockerhub/kube-state-metrics
-  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: willdockerhub/nfs-subdir-external-provisioner
-  k8s.gcr.io/prometheus-adapter/prometheus-adapter: willdockerhub/prometheus-adapter
+  k8s.gcr.io/metrics-server/metrics-server: cjk2atmb/metrics-server
+  k8s.gcr.io/ingress-nginx/controller: cjk2atmb/ingress-nginx-controller
+  k8s.gcr.io/git-sync/git-sync: cjk2atmb/git-sync
+  gcr.io/kaniko-project/executor:debug,latest: cjk2atmb/kaniko-executor
+  k8s.gcr.io/kube-state-metrics/kube-state-metrics: cjk2atmb/kube-state-metrics
+  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: cjk2atmb/nfs-subdir-external-provisioner
+  k8s.gcr.io/prometheus-adapter/prometheus-adapter: cjk2atmb/prometheus-adapter
 ```
 
 3、check action logs
