@@ -4,3 +4,18 @@ auth:
     password: cjk3466761
 images:
   gcr.io/cadvisor/cadvisor:v0.37.5: cjk2atmb/cadvisor:v0.37.5
+  k8s.gcr.io/metrics-server/metrics-server: cjk2atmb/metrics-server
+  k8s.gcr.io/ingress-nginx/controller: cjk2atmb/ingress-nginx-controller
+  k8s.gcr.io/git-sync/git-sync: cjk2atmb/git-sync
+  gcr.io/kaniko-project/executor:debug,latest: cjk2atmb/kaniko-executor
+  k8s.gcr.io/kube-state-metrics/kube-state-metrics: cjk2atmb/kube-state-metrics
+  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: cjk2atmb/nfs-subdir-external-provisioner
+  k8s.gcr.io/prometheus-adapter/prometheus-adapter: cjk2atmb/prometheus-adapter
+  # kubernetes image
+  k8s.gcr.io/kube-apiserver: cjk2atmb/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: cjk2atmb/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: cjk2atmb/kube-scheduler
+  k8s.gcr.io/kube-proxy: cjk2atmb/kube-proxy
+  k8s.gcr.io/pause: cjk2atmb/pause
+  k8s.gcr.io/etcd: cjk2atmb/etcd
+  coredns/coredns: cjk2atmb/coredns
