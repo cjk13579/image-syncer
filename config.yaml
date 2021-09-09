@@ -3,7 +3,7 @@ auth:
     username: cjk2atmb
     password: cjk3466761
 images:
-  gcr.io/cadvisor/cadvisor:v0.37.5: cjk2atmb/cadvisor:v0.37.5
+  gcr.io/cadvisor/cadvisor: cjk2atmb/cadvisor
   k8s.gcr.io/metrics-server/metrics-server: cjk2atmb/metrics-server
   k8s.gcr.io/ingress-nginx/controller: cjk2atmb/ingress-nginx-controller
   k8s.gcr.io/git-sync/git-sync: cjk2atmb/git-sync
