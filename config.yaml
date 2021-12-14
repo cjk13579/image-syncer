@@ -1,7 +1,7 @@
 auth:
   registry.hub.docker.com:
-    username: USERNAME
-    password: PASSWORD
+    username: DOCKERHUB_USERNAME
+    password: DOCKERHUB_PASSWORD
 images:
   gcr.io/cadvisor/cadvisor: cjk2atmb/cadvisor
   k8s.gcr.io/metrics-server/metrics-server: cjk2atmb/metrics-server
